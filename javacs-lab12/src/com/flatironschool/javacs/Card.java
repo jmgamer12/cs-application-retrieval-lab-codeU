@@ -110,7 +110,6 @@ public class Card implements Comparable<Card> {
         System.out.println(cards.get(51));
         
         Comparator<Card> comparator = new Comparator<Card>() {
-            @Override
             public int compare(Card card1, Card card2) {
             	if (card1.getSuit() < card2.getSuit()) {
                     return -1;
